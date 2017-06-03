@@ -18,9 +18,11 @@ Cat.prototype.counter = function() {
 
 var cat1 = new Cat("Biscoito", "img/gato1.jpg", "cat1");
 var cat2 = new Cat("Bolacha", "img/gato2.jpg", "cat2");
+var cat3 = new Cat("Torradinha", "img/gato3.jpg", "cat3");
 
 cat1.render();
 cat2.render();
+cat3.render();
 
 $("li").on("click", function (event) {
     var catObj = eval($(this).attr("class"));
