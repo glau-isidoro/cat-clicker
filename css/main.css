@@ -6,4 +6,14 @@ body {
 
 img {
   cursor: pointer;
+  padding-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-bottom: 2em;
 }
